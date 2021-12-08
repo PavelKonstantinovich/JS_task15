@@ -1,0 +1,32 @@
+{
+  "name": "js_task14",
+  "version": "1.0.0",
+  "description": "Car",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelKonstantinovich/JS_task15.git"
+  },
+  "keywords": [],
+  "author": "Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelKonstantinovich/JS_task15/issues"
+  },
+  "homepage": "https://github.com/PavelKonstantinovich/JS_task15#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
