@@ -1,19 +1,19 @@
 import { Car } from './car'
 
 class Truck extends Car {
-  cargoCabin = []
 
   constructor (props) {
     super(props)
     this.maxSlots = props.maxSlots || 1
+    this.cargo = props.cargo || 1
   }
 
-  addCargo (item) {
-    if (this.cargoCabin < this.maxSlots) {
-      this.cargoCabin.push(item)
+  addCargo () {
+    if (this.cargo <= this.maxSlots) {
+      console.log(`В ${this.brand} груз поместился без остатка`)
     } else {
-      const error = new Error(`${this.brand} загружен.`)
-      console.error(error)
+      const extra = this.cargo - this.maxSlots
+      console.warn(`${this.brand} загружен. На складе остается ${extra} палетта`)
     }
   }
 

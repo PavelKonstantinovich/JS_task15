@@ -17,9 +17,9 @@ const truck = new Truck({
   year: 2019,
   fuelRate: 12,
   maxSlots: 14,
-  distance: 3000
+  distance: 3000,
+  cargo: 18
 })
-truck.addCargo(15)
 truck.getInfo()
 
 const sportCar = new SportCar({
