@@ -13,7 +13,7 @@ class Truck extends Car {
       console.log(`В ${this.brand} груз поместился без остатка`)
     } else {
       const extra = this.cargo - this.maxSlots
-      console.warn(`${this.brand} загружен. На складе остается ${extra} палетта`)
+      console.warn(`${this.brand} загружен. На складе остается ${extra} палета`)
     }
   }
 
